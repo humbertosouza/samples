@@ -4,8 +4,12 @@ This repository contains samples for different sets of files, including this REA
 
 ## Samples available
 
-README - Minimum readme for collaborative work. This file aims Startups to transition from a low structured repos to more collaborative repos.
-Begining of the file from is after ---
+README - Minimum readme for collaborative work. 
+
+This file aims Startups to transition from a low structured repos to more collaborative repos.
+
+Begining of the file from the next line.
+
 ---
 <h1 align="center">
   <br>
@@ -22,13 +26,13 @@ Begining of the file from is after ---
 </p>
 
 **Purpose:** This an example README file that contains the <strong>NoModule</strong> source code.  
-**NoModule** is a tiny Java program which currently contains only this simplied README file <strong>less than 3kb</strong> made to provide recommendation of minimum README file contents.
+**NoModule** is a tiny Java program which currently contains only this simplied README file <strong>- less than 3kb -</strong> made to provide recommendation of a minimal README file contents.
 
 ## Table of contents
 
   * [Common usage](#common-usage)
   * [Installation](#installation)
-     * [AWS Projects](#core-projects)
+     * [AWS Projects](#aws-projects)
   * [Examples](#examples)
      * [Example 1) No Module for KNN](#example-1-no-module-for-knn)
   * [License](#license)
@@ -55,13 +59,13 @@ Requires AWS API as following
 
 ```json
 AWS.config.apiVersions = {
-  dynamodb: '2011-12-05',
-  ec2: '2013-02-01',
-  redshift: 'latest'
+  dynamodb: "2011-12-05",
+  ec2: "2013-02-01",
+  redshift: "latest"
 };
 ```
 
-Import it to your code using:
+From the front-end, import it to your code using:
 
 ```javascript
 const NoModule = require("noModule");
@@ -69,7 +73,7 @@ const NoModule = require("noModule");
 
 ## Examples
 
-`NoModule` can be used combining different Machine Models.
+`NoModule` can be hypothetically used combining different Machine Learning Models.
 The following examples shows some ways to use it.
 
 ### Example 1) No Module for KNN
@@ -88,4 +92,3 @@ Live systems code without unit tests have no room in the repository.
 
 * [John Smith](https://github.com/johnsmith);
 * [IBM](https://github.com/ibm);
-
